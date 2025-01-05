@@ -1,0 +1,180 @@
+[
+    {
+        "modelName": "User",
+        "properties": [
+            {
+                "name": "id",
+                "type": "Int",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "email",
+                "type": "String",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "name",
+                "type": "String",
+                "isOptional": true,
+                "isArray": false
+            },
+            {
+                "name": "posts",
+                "type": "Post",
+                "isOptional": false,
+                "isArray": true
+            },
+            {
+                "name": "createdAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "updatedAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "id",
+                "type": "Int",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "title",
+                "type": "String",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "content",
+                "type": "String",
+                "isOptional": true,
+                "isArray": false
+            },
+            {
+                "name": "published",
+                "type": "Boolean",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "authorId",
+                "type": "Int",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "author",
+                "type": "User",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "createdAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "updatedAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            }
+        ]
+    },
+    {
+        "modelName": "Post",
+        "properties": [
+            {
+                "name": "id",
+                "type": "Int",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "email",
+                "type": "String",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "name",
+                "type": "String",
+                "isOptional": true,
+                "isArray": false
+            },
+            {
+                "name": "posts",
+                "type": "Post",
+                "isOptional": false,
+                "isArray": true
+            },
+            {
+                "name": "createdAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "updatedAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "id",
+                "type": "Int",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "title",
+                "type": "String",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "content",
+                "type": "String",
+                "isOptional": true,
+                "isArray": false
+            },
+            {
+                "name": "published",
+                "type": "Boolean",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "authorId",
+                "type": "Int",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "author",
+                "type": "User",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "createdAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            },
+            {
+                "name": "updatedAt",
+                "type": "DateTime",
+                "isOptional": false,
+                "isArray": false
+            }
+        ]
+    }
+]

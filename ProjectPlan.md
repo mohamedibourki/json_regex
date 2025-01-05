@@ -1,0 +1,4 @@
+- [x] read prisma
+- [x] get from prisma models
+- [x] get from prisma modelproperties
+- [x] write json
